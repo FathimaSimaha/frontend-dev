@@ -1,9 +1,12 @@
+<x-layout>
+
     <!-- content -->
     <div class="dashboard-main-body">
         <!-- content header -->
         <x-content-header title="Dashboard" breadcrumb="AI" breadcrumb-url="index.html" />
 
         <div class="row row-cols-xxxl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-4">
+
             <x-dashboard-card title="Total Users" value="20,000" icon="gridicons:multiple-users"
                 bgColor="bg-gradient-start-1" iconBg="bg-cyan" changeValue="+5000" changeType="success"
                 changeLabel="Last 30 days users" />
@@ -668,7 +671,5 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
+</x-layout>

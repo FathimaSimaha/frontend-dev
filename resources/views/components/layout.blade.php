@@ -10,8 +10,10 @@
         <!-- navbar -->
         <x-navigationbar.navbar />
 
+
         {{-- content --}}
-        <x-dashboard/>
+
+        {{ $slot }}
 
         <!-- footer -->
         <x-footer />
@@ -21,6 +23,3 @@
     {{-- script --}}
     <x-script />
 
-</body>
-
-</html>

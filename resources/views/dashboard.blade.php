@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :pageScripts="['resources/js/alert.js']">
 
     <!-- content -->
     <div class="dashboard-main-body">

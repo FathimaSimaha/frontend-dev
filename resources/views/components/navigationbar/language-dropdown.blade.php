@@ -1,8 +1,8 @@
 <div class="dropdown d-none d-sm-inline-block">
     <button
-        class="has-indicator w-40-px h-40-px bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center"
+        class="has-indicator w-40-px h-40-px bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center p-0"
         type="button" data-bs-toggle="dropdown">
-        <img src="assets/images/lang-flag.png" alt="image" class="w-24 h-24 object-fit-cover rounded-circle">
+        <img src="assets/images/lang-flag.png" alt="image" class="w-24-px h-24-px object-fit-cover rounded-circle">
     </button>
     <div class="dropdown-menu to-top dropdown-menu-sm">
         <div class="py-12 px-16 radius-8 bg-primary-50 mb-16 d-flex align-items-center justify-content-between gap-2">

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,8 +24,31 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/example', function () {
+    return view('example');
 });
 
-require __DIR__.'/auth.php';
+
+// Route::resource('vehicles', VehicleController::class);
+// Route::get('/vehicle', function () {
+//     $vehicles = [
+//         [
+//             'vehicle_number' => 'ABC-1234',
+//             'brand' => 'Toyota',
+//             'model' => 'Corolla',
+//             'year' => '2018',
+//         ],
+//         [
+//             'vehicle_number' => 'XYZ-5678',
+//             'brand' => 'Honda',
+//             'model' => 'Civic',
+//             'year' => '2020',
+//         ],
+//     ];
+
+//     return view('vehicle', compact('vehicles'));
+// });
+
+
+
+require __DIR__ . '/auth.php';

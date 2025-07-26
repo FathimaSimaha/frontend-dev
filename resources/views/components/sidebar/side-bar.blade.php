@@ -53,10 +53,10 @@
                     </li>
                 </ul>
             </li>
-            
+
             <x-sidebar.group-title>Application</x-sidebar.group-title>
 
-            <x-sidebar.item href="email.html" icon="mage:email">Email</x-sidebar.item>
+            <x-sidebar.item href="vehicle" icon="mage:email">Vehicle</x-sidebar.item>
 
             <x-sidebar.item href="chat-message.html" icon="bi:chat-dots">Chat</x-sidebar.item>
 

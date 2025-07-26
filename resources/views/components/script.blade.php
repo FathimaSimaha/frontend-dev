@@ -1,3 +1,5 @@
+@props(['pageScripts' => []])
+
 <!-- jQuery library js -->
 <script src="{{ asset('assets/js/lib/jquery-3.7.1.min.js') }}"></script>
 <!-- Bootstrap js -->
@@ -27,6 +29,11 @@
 <script src="{{ asset('assets/js/app.js') }}"></script>
 
 <script src="{{ asset('assets/js/homeOneChart.js') }}"></script>
+
+<!-- Page-specific scripts (if any) -->
+@foreach ($pageScripts as $script)
+    @vite($script)
+@endforeach
 
 </body>
 

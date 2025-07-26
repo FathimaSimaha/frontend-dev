@@ -12,7 +12,6 @@
 
 
         {{-- content --}}
-
         {{ $slot }}
 
         <!-- footer -->
@@ -21,5 +20,7 @@
     </main>
 
     {{-- script --}}
-    <x-script />
+    <x-script :pageScripts="$pageScripts ?? []" />
 
+
+</body>

@@ -5,8 +5,6 @@
     <div>
         <a href="index.html" class="sidebar-logo">
             <img src="assets/images/logo.png" alt="site logo" class="light-logo">
-            <img src="assets/images/logo-light.png" alt="site logo" class="dark-logo">
-            <img src="assets/images/logo-icon.png" alt="site logo" class="logo-icon">
         </a>
     </div> <!--Sidebar image-->
     <div class="sidebar-menu-area">
@@ -18,38 +16,19 @@
                 </a> <!--====================-->
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="index.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> AI</a>
+                        <a href="index.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Vehicle</a>
                     </li>
                     <li>
                         <a href="index-2.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>
-                            CRM</a>
+                        Customer</a>
                     </li>
                     <li>
                         <a href="index-3.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i>
-                            eCommerce</a>
+                            Brand</a>
                     </li>
                     <li>
                         <a href="index-4.html"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i>
-                            Cryptocurrency</a>
-                    </li>
-                    <li>
-                        <a href="index-5.html"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i>
-                            Investment</a>
-                    </li>
-                    <li>
-                        <a href="index-6.html"><i class="ri-circle-fill circle-icon text-purple w-auto"></i> LMS</a>
-                    </li>
-                    <li>
-                        <a href="index-7.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> NFT &
-                            Gaming</a>
-                    </li>
-                    <li>
-                        <a href="index-8.html"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i>
-                            Medical</a>
-                    </li>
-                    <li>
-                        <a href="index-9.html"><i class="ri-circle-fill circle-icon text-purple w-auto"></i>
-                            Analytics</a>
+                            Model</a>
                     </li>
                 </ul>
             </li>
@@ -58,11 +37,11 @@
 
             <x-sidebar.item href="vehicle" icon="mage:email">Vehicle</x-sidebar.item>
 
-            <x-sidebar.item href="chat-message.html" icon="bi:chat-dots">Chat</x-sidebar.item>
+            <x-sidebar.item href="chat-message.html" icon="bi:chat-dots">Brand</x-sidebar.item>
 
-            <x-sidebar.item href="calendar-main.html" icon="solar:calendar-outline">Calendar</x-sidebar.item>
+            <x-sidebar.item href="calendar-main.html" icon="solar:calendar-outline">Model</x-sidebar.item>
 
-            <x-sidebar.item href="kanban.html" icon="material-symbols:map-outline">Kanban</x-sidebar.item>
+            <x-sidebar.item href="kanban.html" icon="material-symbols:map-outline">Customer</x-sidebar.item>
 
             <x-sidebar.dropdown icon="hugeicons:invoice-03" title="Invoice" :items="[
                 ['href' => 'invoice-list.html', 'label' => 'List', 'color' => 'text-primary-600'],

@@ -30,6 +30,20 @@
 
 <script src="{{ asset('assets/js/homeOneChart.js') }}"></script>
 
+{{-- select2 --}}
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $('.select2').select2({
+        placeholder: 'Select an option'
+    });
+</script>
+
+
+
 <!-- Page-specific scripts (if any) -->
 @foreach ($pageScripts as $script)
     @vite($script)

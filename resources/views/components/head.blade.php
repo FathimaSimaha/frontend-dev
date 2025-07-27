@@ -8,6 +8,8 @@
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     <title>Wowdash - Bootstrap 5 Admin Dashboard HTML Template</title>
+     <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}" sizes="16x16">
 
     <!-- remix icon font css  -->
@@ -53,4 +55,9 @@
 
     <!-- main css -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+
 </head>

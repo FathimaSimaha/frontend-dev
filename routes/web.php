@@ -28,6 +28,18 @@ Route::get('/example', function () {
     return view('example');
 });
 
+Route::get('/form', function () {
+    return view('test-form');
+});
+
+Route::get('/create-vehicle', function () {
+    return view('create-vehicle');
+});
+
+Route::get('/create-invoice', function () {
+    return view('invoice-form');
+});
+
 
 // Route::resource('vehicles', VehicleController::class);
 // Route::get('/vehicle', function () {
